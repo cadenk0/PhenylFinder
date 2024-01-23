@@ -1,4 +1,4 @@
-# PhenylFinder
+# PhenylFinder - A dynamically adapting tool for phenylketonuria patients
 
 ## How to run
 

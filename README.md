@@ -1,4 +1,4 @@
-# Stuy Bioinformatics Site
+# PhenylFinder
 
 ## How to run
 

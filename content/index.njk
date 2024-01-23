@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+
+{% set homecss %} {% include "styles/home.css" %} {% endset %}
+<style>
+	{{ homecss | cssmin | safe }}
+	@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&family=Spline+Sans+Mono:wght@500&display=swap');
+</style>
+
+<section>
+	<h1 class="title">PhenylFinder</h1>
+	<div id="content" style="margin-top: 120px;">
+		<p>
+			A dynamically adapting tool for phenylketonuria patients
+		</p>
+	</div>
+	<div id="Register">
+		<p>
+			<a href="content/account.njk"> Create an account </a>
+		</p>
+		<p>
+			<a href=""> Sign in </a>
+		</p>
+	</div>
+</section>
